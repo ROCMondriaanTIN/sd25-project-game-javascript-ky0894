@@ -45,7 +45,7 @@ body {
 
 .letters {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 40px);
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
     gap: 10px;
 }
 
