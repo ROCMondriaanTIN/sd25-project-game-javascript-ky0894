@@ -87,3 +87,65 @@ footer{
     background-image: url('foto/images.jpg'); 
     margin-top: 40px;
 }
+
+.board {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  border: 2px solid #333;
+  margin: 20px auto;
+}
+
+.board div {
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.stone {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.black {
+  background: black;
+}
+
+.white {
+  background: white;
+  border: 1px solid #000;
+}
+
+.zwart{
+  margin-left: 500px;
+}
+
+.wit{
+  margin-left: 970px;
+  color: white;
+}
+
+.stoneblack {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 10%;
+  left: 10%;
+  border: 1px solid #000;
+  background-color: #000;
+}
+
+.stonewhite {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 10%;
+  left: 10%;
+  border: 1px solid #000;
+  background-color: white;
+}
