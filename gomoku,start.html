@@ -17,17 +17,23 @@
   </style>
 
 <body>
-    <header></header>
-
-    <div class="title">Gomoku</div>
+      <header></header>
+  <div class="row">
+<div class="title">Gomoku</div>
+    <div class="spelregel"><a href="gomoku,regel.html"><h3>spel regel</h3></a></div>
+  </div>
 
     <a href="gomoku.html"><div class="start">Start</div></a>
 
 <form>
-    <label for="player1">player 1 name: </label>
-    <input type="text" id="name1" class="name">
-    <label for="player2">player 2 name: </label>
-    <input type="text" id="name2" class="name">
+    <label>Player 1 Name:</label>
+    <input type="text" id="player1"><br><br>
+
+    <label>Player 2 Name:</label>
+    <input type="text" id="player2"><br><br>
+
+    <button onclick="saveNames()">Save</button>
+
 </form>
 <footer></footer>
 </body>

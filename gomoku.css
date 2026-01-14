@@ -17,7 +17,7 @@ a{
 }
 
 .title{
-  width: 700px;
+  width: 550px;
   height: 70px;
   border: 2px solid black;
   font-family: "Georgia", serif;
@@ -30,6 +30,7 @@ a{
   justify-content: center;
   display: flex;
    margin: 50px auto;
+   margin-left: 31%;
 }
 
 .start{
@@ -45,13 +46,13 @@ a{
   padding: 50px 10px;
   justify-content: center;
   display: flex;
-  margin: 60px auto;
+  margin: 55px auto;
    background-image: url('foto/1ed1b227980f3792de3ca55b88f328f6.jpg'); 
 }
 
 form{
     width: 600px;
-  height: 40px;
+  height: 60px;
   border: 2px solid black;
   font-family: "Georgia", serif;
   font-weight: bold;
@@ -76,8 +77,6 @@ form{
 .board div {
   border: 1px solid black;
 }
-
-.b
 
 footer{
   width: 100%;
@@ -148,4 +147,33 @@ footer{
   left: 10%;
   border: 1px solid #000;
   background-color: white;
+}
+
+.row{
+  display: flex;
+}
+
+.spelregel{
+    width: 100px;
+  height: 70px;
+  border: 2px solid black;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  color: white; 
+  background-color: rgb(155, 98, 23);
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+color: white;
+}
+
+.regelpage{
+  width: 500px;
+  height: 750px;
+  padding: 20px 20px;
+  border: 2px solid black;
+  background-color:rgb(234, 199, 153) ;
+  justify-content: center;
+  display: flex;
+  margin: 50px auto;
 }
