@@ -71,6 +71,7 @@ function count(x, y, dx, dy, player) {
   return n;
 }
 
+//name functie
 function saveNames() {
     const p1 = document.getElementById("player1").value;
     const p2 = document.getElementById("player2").value;
@@ -81,7 +82,6 @@ function saveNames() {
     window.location.href = "game.html";
 }
 
-// 读取名字（第2页）
 window.addEventListener("load", () => {
     const p1 = localStorage.getItem("player1");
     const p2 = localStorage.getItem("player2");

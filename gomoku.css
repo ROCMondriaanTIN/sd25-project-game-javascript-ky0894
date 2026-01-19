@@ -177,3 +177,18 @@ color: white;
   display: flex;
   margin: 50px auto;
 }
+
+.vol{
+    width: 550px;
+  height: 30px;
+  border: 2px solid black;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  color: white; 
+  background-color: rgb(155, 98, 23);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+   margin: 50px auto;
+   margin-left: 31%;
+}
